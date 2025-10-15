@@ -1,0 +1,23 @@
+@use 'mixins' as *;
+
+body{
+    margin: 0;
+}
+
+main{
+    margin: 10vw, 40vw;
+}
+.button {
+    @include button;
+    background-color: var(--color-pink)
+}
+.button-alt{
+    @include button;
+    background-color: lawngreen;
+}
+.button-outline{
+    @include button;
+    background-color: yellow;
+    border: 1px solid;
+    color: unset;
+}
