@@ -1,7 +1,7 @@
 @mixin button{
     background-color: var(--color-pink);
     color: var(--color-pink);
-    padding: 0.75em, 1.5em;
+    padding: 0.75em 1.5em;
     border-radius: 100px;
     transition: all 150ms;
     text-decoration: none;
@@ -9,7 +9,7 @@
     font-size: 1rem;
     text-align: center;
     &:hover{
-        background-color: var(--color-yellow);
+        background-color: var(--color_yellow);
     }
 
 }
